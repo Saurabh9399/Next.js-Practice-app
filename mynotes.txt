@@ -1,0 +1,10 @@
+<Link href="/home" >Go to Home page </Link>
+
+* write "use client" if you want to use react hooks and react functionalities in Next.js application.
+* you can use routing with the help of following in next.js
+
+    import { useRouter } from "next/navigation"
+
+    in component -> const router = useRouter();
+
+    and in onClick function -> we use router.push("/login") here we push to login route
